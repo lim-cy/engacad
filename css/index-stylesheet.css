@@ -121,27 +121,12 @@ a:after {
 	border-color: transparent;
 }
 
-.progress-bar-theme {
-  background-color: #1abc9c;
-}
 
-
-/* Helpers */
-
-.mt {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.pt {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
 
 
 /* +++++ WRAP SECTIONS +++++ */
 
-#ww {
+#welcome {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-color: #f2f2f2;
@@ -151,7 +136,7 @@ a:after {
 #footer {
 	background-color: #2f2f2f;
 	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-bottom: 50px;
 }
 
 #footer p {
@@ -165,123 +150,10 @@ a:after {
 }
 
 
-/* +++++ Color Wraps / Blog Page +++++ */
-
-#grey {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #f2f2f2;
-}
-
-#white {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #ffffff;
-}
 
 
 
-/* Blog Date*/
-bd {
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #d2d2d2;
-	font-weight: 700;
-}
-
-/* Blog Author*/
-ba {
-	font-size: 12px;
-	text-transform: uppercase;
-}
-
-/* Blog Quote */
-.bq {
-	font-size: 22px;
-	padding-top: 30px;
-}
-
-/* Blog Tags */
-bt {
-	font-size: 12px;
-}
-
-/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
-/* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
-    background:transparent url(../images/loader.gif) no-repeat center;
-}
-
-
-    .zoomOverlay {
-        position:absolute;
-        top:0; left:0;
-        bottom:0; right:0;
-        display:none;
-        background-image:url(../images/zoom.png);
-        background-repeat:no-repeat;
-        background-position:center;
-    }
-
-.zoom2 {
-	opacity: 1;
-}
-
-.zoom2:hover {
-	opacity: 0.5;
-}
-
-/* glyphicon Configuration */
-
-.fa {
-	font-size: 40px;
-	color: #1abc9c;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -289,19 +161,12 @@ bt {
     background: #663399;
 }
 
-#ww {
+#welcome {
     background: #049372;
 }
 
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
 
-#portfolio {
-    background: #1bbc9b;
-}
-
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -309,19 +174,12 @@ bt {
     background: #1f3a93;
 }
 
-#ww {
+#welcome {
     background: #c5eff7;
 }
 
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
 
-#portfolio {
-    background: #1bbc9b;
-}
-
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -329,19 +187,13 @@ bt {
     background: #1f3a93;
 }
 
-#ww {
+#welcome {
     background: #c5eff7;
 }
 
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
 
-#portfolio {
-    background: #1bbc9b;
-}
 
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -349,19 +201,11 @@ bt {
     background: #1f3a93;
 }
 
-#ww {
+#welcome {
     background: #c5eff7;
 }
 
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -369,19 +213,12 @@ bt {
     background: #1f3a93;
 }
 
-#ww {
+#welcome {
     background: #c5eff7;
 }
 
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
 
-#portfolio {
-    background: #1bbc9b;
-}
-
-#ww > .img-responsive {
+#welcome > .img-responsive {
     margin: 0px 0px 0px 0px;
 }
 
@@ -389,17 +226,10 @@ bt {
     background: #1f3a93;
 }
 
-#ww {
+#welcome {
     background: #c5eff7;
 }
 
-#grey {
-    text-align: center;
-}
-
-#grey > .container > .row > .col-lg-offset-2 {
-    text-align: left;
-}
 
 #footer > .container > .row > .locked {
     text-align: center;
@@ -420,4 +250,3 @@ bt {
 #footer {
     text-align: initial;
 }
-
