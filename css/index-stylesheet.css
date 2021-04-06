@@ -1,6 +1,6 @@
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Neucha', cursive;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -10,13 +10,9 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #333;
-}
-
 h1 {
+  font-weight: 700;
+  color: #333;
 	font-size: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -76,6 +72,7 @@ a:after {
 .navbar {
 	text-transform: uppercase;
 	margin-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-inverse {
@@ -85,7 +82,7 @@ a:after {
 
 .navbar-inverse {
 	background-color: #1abc9c;
-	border-color: #16a085;
+	border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -110,6 +107,9 @@ a:after {
 	border-color: transparent;
 }
 
+.navbar-fixed-top {
+    background: #1f3a93;
+}
 
 
 
@@ -118,7 +118,8 @@ a:after {
 #welcome {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
+	background: #c5eff7;
+  margin-top : 160px
 }
 
 
@@ -126,58 +127,7 @@ a:after {
 	background-color: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-
-#footer p {
-	color: white;
-}
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-}
-
-
-
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #663399;
-}
-
-#welcome {
-    background: #049372;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -186,56 +136,8 @@ a:after {
     margin: 0px 0px 0px 0px;
 }
 
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#footer > .container > .row > .locked {
-    text-align: center;
-}
-
-#footer > .container > .row > p {
-    text-align: center;
-}
-
-#footer > .row > .col-lg-4 > p {
-    text-align: initial !important;
-}
 
 #footer > p {
     text-align: center;
-}
-
-#footer {
-    text-align: initial;
+    color: white
 }

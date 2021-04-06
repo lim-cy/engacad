@@ -128,12 +128,7 @@ a:after {
 
 #footer p {
 	color: white;
-}
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
+  text-align: center;
 }
 
 
@@ -167,15 +162,6 @@ bd {
 }
 
 
-#grey {
-    text-align: center;
-}
-
 #grey > .container > .row > .col-lg-offset-2 {
     text-align: left;
-}
-
-
-#footer > p {
-    text-align: center;
 }

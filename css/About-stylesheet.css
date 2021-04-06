@@ -10,13 +10,9 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Merienda', cursive;
-    font-weight: 700;
-    color: #333;
-}
-
 h1 {
+  font-weight: 700;
+  color: #333;
 	font-size: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -84,10 +80,6 @@ a:after {
 	padding-top: 70px;
 }
 
-.navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
-}
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
@@ -111,16 +103,15 @@ a:after {
 	border-color: transparent;
 }
 
-
+.navbar-fixed-top {
+  background: #1f3a93;
+}
 
 /* +++++ WRAP SECTIONS +++++ */
 
-.navbar-fixed-top {
-    background: #1f3a93;
-}
-
 
 #intro {
+  margin-top: 160px;
 	padding-top: 70px;
 	padding-bottom: 70px;
   background: #c5eff7;
