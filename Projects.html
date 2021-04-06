@@ -37,24 +37,55 @@
         </div>
   <!--Start of post content -->
   <div class = "main">
-      <!--Start of post -->
+    <div id="grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+                <p>
+                    <bd>06 April 2021</bd>
+                </p>
+                <h1>How to Use Github Desktop<br></h1>
+                <p>Disclaimer: First time using Github please go look at someone else's tutorial if you want a clear tutorial.
+                  Are you still here? I'll do my best then. ('-'*ゞ
+                    <br>
+                </p>
+                <section class="row" style="overflow: hidden; position: relative;">
+                    <div class="col-md-2">
+                        <img src="images/K5evgBb3wLw2ymS.jpeg" class="img-responsive">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/n4EvQA9AxMadmE6.jpeg" class="img-responsive" style=" overflow: hidden;">
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            <br>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /end of post -->
+  </div>
+      <!--Start of post alternating colors of white and grey -->
         <div id="white">
         <div class="container">
             <div class="row">
+              <!--Bootstrap column sizing, always add up up to 12, change the number at the end-->
                 <div class="col-lg-8 col-lg-offset-2">
-
                     <p>
                         <bd>06 April 2021</bd>
                     </p>
                     <h1>Making This Website!<br></h1>
                     <section class="row" style=" overflow: hidden; position: relative;">
-                      <!--Bootstrap column sizing, always add up up to 12, change the number at the end-->
                         <div class="col-md-4">
                             <img src="images/GithubDesktop.jpg" class="img-responsive">
                         </div>
                         <div class="col-md-8">
-                            <p>Making this website was like revisting an old friend. The last time I had touched web development was in Sec 2.
-                              I had to go reread and relearn a lot of stuff. Downloading Github Desktop made updating the website a lot easier. I
+                            <p> Downloading Github Desktop made updating the website a lot easier. I
                               didn't need to keep uploading files to Github and it only took a few quick clicks to update the files in Github. As
                               it automatically senses any changes I made, I only need to commit and then push to make the change.
                                 <br>
@@ -63,12 +94,41 @@
                     </section>
                     <div style ="overflow: hidden; position: relative;">
                       <br>
-                      <p> I used the <a href = "https://getbootstrap.com/docs/4.0/getting-started/introduction/"> Bootstrap CSS framework </a> to have my images and text
+                      <p> I used the <a href = "https://getbootstrap.com/docs/3.4/css/"> Bootstrap CSS framework </a> to have my images and text
                       side-by-side in the projects post(it's used for most of my formatting). Bootstrap is also used for the navigation bar. Since the Projects page is in a blog layout, I
                       intend to just keep adding new "posts" by copy-pasting and then editing sections of the code for new entries.
-                      I used <a href ="https://fonts.google.com/"> Google Fonts </a> for more font options.
+                      I used <a href ="https://fonts.google.com/"> Google Fonts </a> for more font options. (Hi, so I'll rewrite
+                      the website using Bootstrap 4/5 but for now, it's using Bootstrap 3, sorry!) So I'll document my process rewriting both the HTML and CSS later _(꒪ཀ꒪」∠)_
+                      <br><br>
+                      Now for the in-depth on how I built this. Let's start with the navigation bar!
+                      <img src="images/NavBar.jpg" class="img-responsive">
+                      "navbar-fixed-top" makes the navigation bar stay fixed at the top of your screen regardless of
+                      scrolling, moving along with it.(Use "navbar-static-top" if you would rather have the navigation bar not move)
+                      The three "span class" tags make the three line menu that you will see on mobile view
+                      (Try viewing my website on mobile! It looks <del>good</del> passable!)
+                      Engineering Academy is under "navbar-brand" so that I can edit it separately from the list items
+                      Use "a href=" to link all the text to their respective pages and that's all for the navigation bar!
+                      <br><br>
+                      Now let's talk about the footer!
+                      <img src="images/Footer.jpg"class="img-responsive">
+                      Nothing really special here. Most of my CSS is in my CSS script so you won't see much here. The "script src" are for my
+                      Bootstrap CSS framework. Without, it the 3 line menu wouldn't work on mobile but that's about what it does for my website for now.
+                      <br><br>
+                      On to the text that you see in both my Home page and About Page!
+                      <img src="images/TextDiv.jpg"class="img-responsive">
+                      Pretty much standard stuff. "class=img-responsive" makes it such that the images will scale accordingly to device size.  (Again, try
+                      it on mobile to see the effect! Or just resize your browser it works too) The "del" tags basically do <del>strikethroughs</del>. I
+                      think I am abusing them.
+                      <br><br>
+                      Finally how one of my "posts" look like on the Project Page.
+                      <img src="images/ProjectPost.jpg"class="img-responsive">
+                      Same stuff as before. Lots of divs for formatting, can be a bit hard to keep track but quite easy as long as I comment where it starts
+                      and ends. The "div id=white" is to change the background colour of the posts which if you scroll down will see alternate between
+                      grey and white. That's it for how I built this site! I don't think I'll be covering the CSS unless it's required?
 
-                      </p>
+
+
+
                     </div>
 
 
@@ -79,8 +139,65 @@
         </div>
         <!-- /container -->
       </div>
+      <div id="grey">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+
+                  <p>
+                      <bd>05 April 2021</bd>
+                  </p>
+                  <h1>Fusion360 Work<br></h1>
+                  <section class="row" style="overflow: hidden; position: relative;">
+                      <div class="col-md-3">
+                          <img src="images/TV.jpg" class="img-responsive">
+                      </div>
+                      <div class="col-md-3">
+                          <img src="images/DeskOrg.jpg" class="img-responsive" style="overflow: hidden;">
+                      </div>
+                      <div class="col-md-6">
+                          <p>Here's some of the Fusion360 work that I have done. There's a laser-cut handphone holder that is shaped
+                            like a TV set and a 3D-printed desktop organiser. I learnt a lot about Fusion360 through this two assignments.
+                              <br><br>
+                        </p>
+                      </div>
+                           <p>
+                            Commands I learnt:
+                            <ul>
+                              <li>Rectangular Pattern - Super useful for making any type of woodwork joints, essentially
+                                a copy paste function in any direction</li>
+                              <li>Check for interference(under Inspect) - When trying to piece together parts for a laser cut object,
+                                helpful for checking for interference so that you know whether hole/parts are correctly sized/angled</li>
+                              <li>Shell - Best tool for making drawers enough said </li>
+                              <li>Offset Plane - Useful when used in conjunuction with align for moving objects to a set position that is hard
+                                to do by mouse alone</li>
+                              <li>Motion Study - Really nice to see how joints move</li>
+                              <li>Animation - Animate how your object should be assembled</li>
+
+                            </ul>
+                            Here's also Exercise 3 and 5 done!
+                          </p>
+
+                          <div class="row image-grid">
+                              <div class="col-md-6">
+                                      <img src="images/F1.jpg" class="img-responsive">
+                              </div>
+                              <div class="col-md-6">
+                                      <img src="images/F2.jpg" class="img-responsive">
+                              </div>
+
+                  </section>
+
+              </div>
+
+
+          </div>
+          <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
         <!--Start of post -->
-        <div id="grey">
+        <div id="white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -94,7 +211,7 @@
                             <img src="images/K5evgBb3wLw2ymS.jpeg" class="img-responsive">
                         </div>
                         <div class="col-md-2">
-                            <img src="images/n4EvQA9AxMadmE6.jpeg" class="img-responsive" style="height: 111px; width: 127px; overflow: hidden;">
+                            <img src="images/n4EvQA9AxMadmE6.jpeg" class="img-responsive" style=" overflow: hidden;">
                         </div>
                         <div class="col-md-8">
                             <p>During the 2-day experience, we got to print our own designs on T-shirts. I also made a 3D chess piece in Fusion360 - learnt how to use the Revolve command. The Fusion360 lesson was a fun revision as I had previously covered
@@ -104,16 +221,12 @@
                             </p>
                         </div>
                     </section>
-
                 </div>
-
-
             </div>
             <!-- /row -->
         </div>
         <!-- /container -->
       </div>
-
     <!-- /grey end of post -->
   </div>
   <!-- /main end of posts -->
@@ -125,8 +238,10 @@
 
     <div id="footer">
 
-        <p id="">Email: caiying.20@ichat.sp.edu.sg
+        <p>Email: caiying.20@ichat.sp.edu.sg
             <br>
+            <br>
+          &#169;2021 Lim Cai Ying
         </p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
