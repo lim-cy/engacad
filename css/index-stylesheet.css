@@ -73,17 +73,12 @@ a:after {
 	text-transform: uppercase;
 	margin-bottom: 0px;
   font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-inverse {
-	padding-bottom: 70px;
+  padding-bottom: 70px;
 	padding-top: 70px;
-}
-
-.navbar-inverse {
-	background-color: #1abc9c;
+  background-color: #1f3a93;
 	border-color: transparent;
 }
+
 
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
@@ -97,18 +92,11 @@ a:after {
 	font-weight: 700;
 	font-size: 20px;
 	letter-spacing: 2px;
+  color: white;
 }
 
 .navbar-inverse .navbar-brand {
 	color: white;
-}
-
-.navbar-inverse .navbar-toggle {
-	border-color: transparent;
-}
-
-.navbar-fixed-top {
-    background: #1f3a93;
 }
 
 
