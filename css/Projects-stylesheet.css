@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 body {
   	background-color: #ffffff;
   	font-family: 'Montserrat', sans-serif;
@@ -13,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Amatic SC', cursive;
     font-weight: 700;
     color: #333;
 }
@@ -39,7 +37,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #037bfc;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -86,8 +84,8 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
+	background-color: #1f3a93;
+	border-color: ##1f3a93;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -112,6 +110,9 @@ a:after {
 	border-color: transparent;
 }
 
+.main {
+  margin-top: 160px;
+}
 
 
 /* +++++ WRAP SECTIONS +++++ */
@@ -160,58 +161,11 @@ bd {
 	font-weight: 700;
 }
 
-
-
-.navbar-static-top {
+/* Navigation Bar Colour*/
+.navbar-fixed-top {
     background: #1f3a93;
 }
 
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
 
 #grey {
     text-align: center;
@@ -222,48 +176,6 @@ bd {
 }
 
 
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-#footer > .container > .row > .locked {
-    text-align: center;
-}
-
-#footer > .container > .row > p {
-    text-align: center;
-}
-
-#footer > .row > .col-lg-4 > p {
-    text-align: initial !important;
-}
-
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-
-
-
-#footer > .container > .row > .locked {
-    text-align: center;
-}
-
-#footer > .container > .row > p {
-    text-align: center;
-}
-
-#footer > .row > .col-lg-4 > p {
-    text-align: initial !important;
-}
-
 #footer > p {
     text-align: center;
-}
-
-#footer {
-    text-align: initial;
 }
