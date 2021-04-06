@@ -1,9 +1,6 @@
-
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Merienda', cursive;
     font-weight: 400;
     font-size: 14px;
     color: #555;
@@ -14,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Merienda', cursive;
     font-weight: 700;
     color: #333;
 }
@@ -77,6 +74,7 @@ a:after {
 
 
 .navbar {
+  font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
@@ -117,10 +115,19 @@ a:after {
 
 /* +++++ WRAP SECTIONS +++++ */
 
-#welcome {
+.navbar-fixed-top {
+    background: #1f3a93;
+}
+
+
+#intro {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
+  background: #c5eff7;
+}
+
+#intro > .img-responsive {
+    margin: 0px 0px 0px 0px;
 }
 
 
@@ -130,121 +137,9 @@ a:after {
 	padding-bottom: 50px;
 }
 
-#footer p {
-	color: white;
-}
-
-#footer h4 {
-	color: white;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #663399;
-}
-
-#welcome {
-    background: #049372;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-#portfolio > #about > .container > .row > .text-center > h2 {
-    background: #1bbc9b;
-}
-
-#portfolio {
-    background: #1bbc9b;
-}
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#footer > .container > .row > .locked {
-    text-align: center;
-}
-
-#footer > .container > .row > p {
-    text-align: center;
-}
-
-
-#welcome > .img-responsive {
-    margin: 0px 0px 0px 0px;
-}
-
-.navbar-static-top {
-    background: #1f3a93;
-}
-
-#welcome {
-    background: #c5eff7;
-}
-
-
-#footer > .container > .row > .locked {
-    text-align: center;
-}
-
-#footer > .container > .row > p {
-    text-align: center;
-}
-
-#footer > .row > .col-lg-4 > p {
-    text-align: initial !important;
-}
 
 #footer > p {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-}
-
-#footer {
-    text-align: initial;
+    color: white;
 }
