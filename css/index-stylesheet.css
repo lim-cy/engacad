@@ -85,7 +85,21 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
+	color: #c5eff7;
+}
+
+.navbar ul li::after {
+  content:'';
+  height: 3px;
+  width:0;
+  background:#c5eff7;
+  position:absolute;
+  transition:0.5s;
+
+}
+
+.navbar ul li:hover::after {
+  width:100%;
 }
 
 .navbar-brand {
